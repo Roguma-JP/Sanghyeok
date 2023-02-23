@@ -40590,8 +40590,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-2 {
+  font-weight: 400;
   font-size: 1rem;
-  border-style: solid;
 }
 
 .u-header .u-nav-3 {
@@ -40601,8 +40601,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-4 {
+  font-weight: 400;
   font-size: 1rem;
-  border-style: solid;
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
