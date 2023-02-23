@@ -1,4 +1,4 @@
- .u-section-1 {
+.u-section-1 {
   background-image: url("images/bg.png");
   background-position: 50% 50%;
 }
@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
+  .u-section-1 {
     background-position: 62.78% 27.78%;
     background-size: auto 155%;
   }
@@ -142,7 +142,8 @@
     margin-top: 59px;
     padding: 15px 41px 15px 40px;
   }
-} .u-section-2 {
+}
+.u-section-2 {
   background-image: none;
 }
 
@@ -429,7 +430,7 @@
 .u-section-2 .u-btn-4 {
   background-image: none;
   letter-spacing: 1px;
-  text-shadow: 0 0 0 rgba(0,0,0,0);
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   font-size: 1.125rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -441,7 +442,7 @@
 .u-section-2 .u-btn-5 {
   background-image: none;
   letter-spacing: 1px;
-  text-shadow: 0 0 0 rgba(0,0,0,0);
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   font-size: 1.125rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -456,8 +457,8 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-scale: 0.3;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: -887px auto 0 418px;
@@ -470,8 +471,8 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-scale: 0.3;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 8px auto 0 418px;
@@ -484,8 +485,8 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-scale: 0.3;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: -42px 151px 0 auto;
@@ -498,8 +499,8 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-scale: 0.3;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: -42px 344px 0 auto;
@@ -512,8 +513,8 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -531,8 +532,8 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -549,8 +550,8 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -567,8 +568,8 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -1376,14 +1377,19 @@
 .u-section-2 .u-btn-6,
 .u-section-2 .u-btn-6:before,
 .u-section-2 .u-btn-6 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-2 .u-btn-6.u-btn-6.u-btn-6:hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-6.u-btn-6.u-btn-6:hover:before {
@@ -1396,9 +1402,9 @@
 
 .u-section-2 .u-btn-6.u-btn-6.u-btn-6.hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-6 {
@@ -1416,14 +1422,19 @@
 .u-section-2 .u-btn-10,
 .u-section-2 .u-btn-10:before,
 .u-section-2 .u-btn-10 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-2 .u-btn-10.u-btn-10.u-btn-10:hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-10.u-btn-10.u-btn-10:hover:before {
@@ -1436,9 +1447,9 @@
 
 .u-section-2 .u-btn-10.u-btn-10.u-btn-10.hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-10 {
@@ -1456,14 +1467,19 @@
 .u-section-2 .u-btn-11,
 .u-section-2 .u-btn-11:before,
 .u-section-2 .u-btn-11 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-2 .u-btn-11.u-btn-11.u-btn-11:hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-11.u-btn-11.u-btn-11:hover:before {
@@ -1476,9 +1492,9 @@
 
 .u-section-2 .u-btn-11.u-btn-11.u-btn-11.hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-11 {
@@ -1496,14 +1512,19 @@
 .u-section-2 .u-btn-12,
 .u-section-2 .u-btn-12:before,
 .u-section-2 .u-btn-12 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-2 .u-btn-12.u-btn-12.u-btn-12:hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-12.u-btn-12.u-btn-12:hover:before {
@@ -1516,9 +1537,9 @@
 
 .u-section-2 .u-btn-12.u-btn-12.u-btn-12.hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-12 {
@@ -1536,14 +1557,19 @@
 .u-section-2 .u-btn-13,
 .u-section-2 .u-btn-13:before,
 .u-section-2 .u-btn-13 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-2 .u-btn-13.u-btn-13.u-btn-13:hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-13.u-btn-13.u-btn-13:hover:before {
@@ -1556,9 +1582,9 @@
 
 .u-section-2 .u-btn-13.u-btn-13.u-btn-13.hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-13 {
@@ -1576,14 +1602,19 @@
 .u-section-2 .u-btn-7,
 .u-section-2 .u-btn-7:before,
 .u-section-2 .u-btn-7 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-2 .u-btn-7.u-btn-7.u-btn-7:hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-7.u-btn-7.u-btn-7:hover:before {
@@ -1596,9 +1627,9 @@
 
 .u-section-2 .u-btn-7.u-btn-7.u-btn-7.hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-7 {
@@ -1616,14 +1647,19 @@
 .u-section-2 .u-btn-9,
 .u-section-2 .u-btn-9:before,
 .u-section-2 .u-btn-9 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-2 .u-btn-9.u-btn-9.u-btn-9:hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-9.u-btn-9.u-btn-9:hover:before {
@@ -1636,9 +1672,9 @@
 
 .u-section-2 .u-btn-9.u-btn-9.u-btn-9.hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-9 {
@@ -1656,14 +1692,19 @@
 .u-section-2 .u-btn-8,
 .u-section-2 .u-btn-8:before,
 .u-section-2 .u-btn-8 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-2 .u-btn-8.u-btn-8.u-btn-8:hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-8.u-btn-8.u-btn-8:hover:before {
@@ -1676,9 +1717,9 @@
 
 .u-section-2 .u-btn-8.u-btn-8.u-btn-8.hover {
   border-radius: 10px !important;
-  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
   transform: translateX(0px) translateY(px) scale(1) rotate(0deg) !important;
-  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 
 .u-section-2 .u-btn-8 {
@@ -1691,7 +1732,8 @@
 
 .u-container-layout.hover .u-section-2 .u-btn-8 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-} .u-section-3 {
+}
+.u-section-3 {
   background-image: none;
 }
 
@@ -1750,8 +1792,8 @@
 .u-section-3 .u-image-1 {
   height: 345px;
   object-position: 100% 50%;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
@@ -1787,8 +1829,8 @@
 .u-section-3 .u-image-2 {
   height: 345px;
   object-position: 100% 50%;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
@@ -1824,8 +1866,8 @@
 .u-section-3 .u-image-3 {
   height: 345px;
   object-position: 100% 50%;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
@@ -1861,8 +1903,8 @@
 .u-section-3 .u-image-4 {
   height: 345px;
   object-position: 100% 50%;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
@@ -1897,8 +1939,8 @@
 
 .u-section-3 .u-image-5 {
   height: 345px;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
@@ -1933,8 +1975,8 @@
 
 .u-section-3 .u-image-6 {
   height: 345px;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
@@ -1969,8 +2011,8 @@
 
 .u-section-3 .u-image-7 {
   height: 345px;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
@@ -2477,7 +2519,8 @@
   .u-section-3 .u-image-7 {
     height: 205px;
   }
-} .u-section-4 {
+}
+.u-section-4 {
   background-image: none;
 }
 
