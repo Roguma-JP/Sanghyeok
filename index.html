@@ -1,1003 +1,259 @@
 <!DOCTYPE html>
-<html style="font-size: 16px" lang="en">
-  <head>
-    <link rel="icon" href="images\fabicon_PARK.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta name="keywords" content="Design, Korea, Japan, UIUX" />
-    <meta name="description" content="Hello i'm multi designer" />
-    <title>PORTFOLIO_PSH_index</title>
-    <link rel="stylesheet" href="main.css" media="screen" />
-    <link rel="stylesheet" href="Home.css" media="screen" />
-    <script
-      class="u-script"
-      type="text/javascript"
-      src="jquery.js"
-      defer=""
-    ></script>
-    <script
-      class="u-script"
-      type="text/javascript"
-      src="style.js"
-      defer=""
-    ></script>
-    <meta name="generator" content="" />
-    <meta name="referrer" content="origin" />
-    <meta property="og:title" content="SANGHYEOK_PORTFOLIO" />
-    <meta property="og:description" content="hello i'm multi deisner" />
-    <meta
-      property="og:image"
-      content="https://roguma-jp.github.io/Sanghyeok/images/image.png"
-    />
-    <meta property="og:url" content="https://roguma-jp.github.io/Sanghyeok/" />
-    <link
-      id="u-theme-google-font"
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
-    />
-    <link
-      id="u-page-google-font"
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
-    />
+<html lang="ja">
 
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Site1"
-      }
-    </script>
-    <meta name="theme-color" content="#478ac9" />
-    <meta property="og:type" content="website" />
-    <meta data-intl-tel-input-cdn-path="intlTelInput/" />
-  </head>
-  <body
-    data-home-page="Home.html"
-    data-home-page-title="Home"
-    class="u-body u-overlap u-xl-mode"
-    data-lang="en"
-  >
-    <header
-      class="u-clearfix u-header u-sticky u-sticky-6c80 u-white u-header"
-      id="sec-1ba1"
-    >
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <p
-          class="u-custom-font u-font-montserrat u-text u-text-default u-text-1"
-        >
-          <a
-            class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1"
-            href="Home.html"
-            >SANGHYEOK</a
-          >
-        </p>
-        <nav
-          class="u-dropdown-icon u-menu u-menu-dropdown u-menu-open-right u-offcanvas u-menu-1"
-          data-responsive-from="MD"
-        >
-          <div
-            class="menu-collapse"
-            style="
-              font-size: 1rem;
-              letter-spacing: 0px;
-              font-weight: 700;
-              text-transform: uppercase;
-            "
-          >
-            <a
-              class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-              href="#"
-            >
-              <svg class="u-svg-link" viewBox="0 0 24 24">
-                <use
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xlink:href="#menu-hamburger"
-                ></use>
-              </svg>
-              <svg
-                class="u-svg-content"
-                version="1.1"
-                id="menu-hamburger"
-                viewBox="0 0 16 16"
-                x="0px"
-                y="0px"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g>
-                  <rect y="1" width="16" height="2"></rect>
-                  <rect y="7" width="16" height="2"></rect>
-                  <rect y="13" width="16" height="2"></rect>
-                </g>
-              </svg>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="挑戦を怖がらないデザイナーパクです。">
+    <!-- ogp -->
+    <meta property="og:url" content="https://roguma-jp.github.io/Parksanghyeok/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Parksanghyeok_Portfolio">
+    <meta property="og:description" content="挑戦を怖がらないデザイナーパクです。">
+    <meta property="og:site_name" content="PARKSANGHYEOK">
+    <meta property="og:image" content="https://github.com/Roguma-JP/Parksanghyeok/blob/main/img/ogp.png?raw=true">
+    <!-- favicon apple-touch-icon -->
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="PARK-PORT" />
+    <link rel="manifest" href="img/site.webmanifest" />
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Klee+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css?v=2">
+    <title>PARKSANGHYEOK</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- nav_menu -->
+        <header id="header" class="header">
+            <a href="#">
+                <h1 class="header__topic">ParkSangHyeok</h1>
             </a>
-          </div>
-          <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-spacing-30 u-unstyled u-nav-1">
-              <li class="u-nav-item">
-                <a
-                  class="u-border-2 u-border-active-palette-4-base u-border-hover-palette-4-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-4-base u-text-grey-90 u-text-hover-grey-90"
-                  href="Home.html"
-                  style="padding: 10px 0px"
-                  >Home</a
-                >
-              </li>
-              <li class="u-nav-item">
-                <a
-                  class="u-border-2 u-border-active-palette-4-base u-border-hover-palette-4-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-4-base u-text-grey-90 u-text-hover-grey-90"
-                  href="#"
-                  style="padding: 10px 0px"
-                  >My Works</a
-                >
-                <div class="u-nav-popup">
-                  <ul
-                    class="u-border-4 u-border-no-left u-border-no-right u-border-no-top u-border-palette-4-base u-custom-font u-font-roboto u-h-spacing-18 u-nav u-unstyled u-v-spacing-15 u-nav-2"
-                  >
-                    <li class="u-nav-item">
-                      <a
-                        class="u-button-style u-hover-palette-4-light-2 u-nav-link u-white"
-                        href="App-Web.html"
-                        >App-Web</a
-                      >
-                    </li>
-                    <li class="u-nav-item">
-                      <a
-                        class="u-button-style u-hover-palette-4-light-2 u-nav-link u-white"
-                        href="Youtube.html"
-                        >Youtube</a
-                      >
-                    </li>
-                    <li class="u-nav-item">
-                      <a
-                        class="u-button-style u-hover-palette-4-light-2 u-nav-link u-white"
-                        href="Product.html"
-                        >Product</a
-                      >
-                    </li>
-                  </ul>
+            <nav class="nav">
+                <div class="nav__header">
+                    <img src="img/nav_exit.svg" alt="">
                 </div>
-              </li>
-              <li class="u-nav-item">
-                <a
-                  class="u-border-2 u-border-active-palette-4-base u-border-hover-palette-4-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-4-base u-text-grey-90 u-text-hover-grey-90"
-                  href="#"
-                  style="padding: 10px 0px"
-                  >About Me</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="u-custom-menu u-nav-container-collapse">
-            <div
-              class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-90 u-sidenav"
-            >
-              <div class="u-inner-container-layout u-sidenav-overflow">
-                <div class="u-menu-close"></div>
-                <ul
-                  class="u-align-center u-custom-font u-font-montserrat u-nav u-popupmenu-items u-spacing-11 u-unstyled u-nav-3"
-                >
-                  <li class="u-nav-item">
-                    <a class="u-button-style u-nav-link" href="Home.html"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="u-nav-item">
-                    <a class="u-button-style u-nav-link" href="#">My Works</a>
-                    <div class="u-nav-popup">
-                      <ul
-                        class="u-border-4 u-border-no-left u-border-no-right u-border-no-top u-border-palette-4-base u-custom-font u-font-roboto u-h-spacing-18 u-nav u-unstyled u-v-spacing-15 u-nav-4"
-                      >
-                        <li class="u-nav-item">
-                          <a
-                            class="u-button-style u-nav-link"
-                            href="App-Web.html"
-                            >App-Web</a
-                          >
-                        </li>
-                        <li class="u-nav-item">
-                          <a
-                            class="u-button-style u-nav-link"
-                            href="Youtube.html"
-                            >Youtube</a
-                          >
-                        </li>
-                        <li class="u-nav-item">
-                          <a
-                            class="u-button-style u-nav-link"
-                            href="Product.html"
-                            >Product</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="u-nav-item">
-                    <a class="u-button-style u-nav-link" href="#">About Me</a>
-                  </li>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about"><img src="img/nav_img.svg" alt="">ABOUT</a></li>
+                    <li class="nav__item"><a href="#web"><img src="img/nav_img.svg" alt="">WEB</a></li>
+                    <li class="nav__item"><a href="web.html"><img src="img/nav_img.svg" alt="">OTHER</a></li>
+                    <li class="nav__item">
+                        <div class="nav__box">
+                            <a href="index.html#contect"><img src="img/nav_img.svg" alt="">CONTACT</a>
+                        </div>
+                    </li>
                 </ul>
-              </div>
-            </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-40"></div>
-          </div>
-        </nav>
-      </div>
-      <style class="u-sticky-style" data-style-id="6c80">
-        .u-sticky-fixed.u-sticky-6c80,
-        .u-body.u-sticky-fixed .u-sticky-6c80 {
-          box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4) !important;
-        }
-        .u-sticky-fixed.u-sticky-6c80:before,
-        .u-body.u-sticky-fixed .u-sticky-6c80:before {
-          borders: top right bottom left !important;
-        }
-      </style>
-    </header>
-    <section
-      class="u-clearfix u-image u-section-1"
-      id="carousel_c9ef"
-      data-image-width="2401"
-      data-image-height="1448"
-    >
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <span class="u-file-icon u-icon u-icon-1"
-          ><img src="images/angle1.png" alt=""
-        /></span>
-        <p class="u-text u-text-white u-text-1">
-          Hello I'm&nbsp;<br />PARK SANG HYEOK
-        </p>
-        <h2
-          class="u-text u-text-body-alt-color u-text-2"
-          data-animation-out="0"
-        >
-          UI·UX<br />Youtu​be<br />Product
-        </h2>
-        <a
-          href="https://drive.google.com/file/d/1HVBzdhj8MSxvmk4Z6PVl5kX_RsV6xCyj/view?usp=share_link"
-          class="u-active-white u-border-none u-btn u-btn-round u-button-style u-hover-white u-palette-4-base u-radius-50 u-text-active-palette-4-base u-text-hover-palette-4-base u-btn-1"
-          data-animation-name="zoomIn"
-          data-animation-duration="1500"
-          data-animation-direction=""
-          data-animation-delay="500"
-          target="_blank"
-          >Portfolio</a
-        >
-      </div>
-    </section>
-    <section
-      class="u-align-center u-clearfix u-palette-5-light-3 u-section-2"
-      id="carousel_068e"
-    >
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div
-          class="u-align-left u-container-style u-group u-group-1"
-          data-animation-out="1"
-        >
-          <div class="u-container-layout u-container-layout-1">
-            <h2 class="u-text u-text-1">Who Am I</h2>
-            <p class="u-text u-text-2">
-              色んなデザインができる<br />デザイナ​ーサンヒョクです。<br />
-            </p>
-          </div>
-        </div>
-        <div
-          class="u-align-left-sm u-align-left-xs u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-2"
-        >
-          <div class="u-container-layout u-container-layout-2">
-            <div
-              class="u-clearfix u-container-align-center u-group-elements u-group-elements-1"
-              data-animation-name="bounceIn"
-              data-animation-duration="1000"
-              data-animation-direction=""
-              data-animation-delay="500"
-            >
-              <div
-                class="u-expanded u-flip-horizontal u-opacity u-opacity-65 u-shape u-shape-svg u-text-palette-4-base"
-              >
-                <svg
-                  class="u-svg-link"
-                  preserveAspectRatio="none"
-                  viewBox="0 0 160 130"
-                  
-                >
-                  <use
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xlink:href="#svg-8f29"
-                  ></use>
-                </svg>
-                <svg
-                  class="u-svg-content"
-                  viewBox="0 0 160 130"
-                  x="0px"
-                  y="0px"
-                  id="svg-8f29"
-                  style="enable-background: new 0 0 160 130"
-                >
-                  <path
-                    d="M148.3,0H11.7C5.3,0,0,5.2,0,11.5v79.8c0,6.4,5.3,11.5,11.7,11.5h56L67.6,130l24.2-27.2h56.5c6.5,0,11.7-5.2,11.7-11.5V11.5
-	C160,5.2,154.7,0,148.3,0z"
-                  ></path>
-                </svg>
-              </div>
-              <p class="u-align-center u-text u-text-body-alt-color u-text-3">
-                click
-              </p>
-            </div>
-            <a
-              href="Home.html#carousel_9f1d"
-              class="u-btn u-button-style u-hover-feature u-hover-palette-4-base u-none u-btn-1"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-direction=""
-              data-animation-delay="500"
-              target="_blank"
-              >#ui·ux</a
-            >
-            <a
-              href="Home.html#carousel_9f1d"
-              class="u-btn u-button-style u-hover-feature u-hover-palette-4-base u-none u-btn-2"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-delay="500"
-              >#yOUTUBE</a
-            >
-            <a
-              href="Home.html#carousel_9f1d"
-              class="u-btn u-button-style u-hover-feature u-hover-palette-4-base u-none u-btn-3"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-delay="500"
-              >#App design</a
-            >
-            <a
-              href="Home.html#carousel_9f1d"
-              class="u-btn u-button-style u-hover-feature u-hover-palette-4-base u-none u-btn-4"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-delay="500"
-              >#web design</a
-            >
-            <a
-              href="Home.html#carousel_9f1d"
-              class="u-btn u-button-style u-hover-feature u-hover-palette-4-base u-none u-btn-5"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-delay="500"
-              >#product</a
-            >
-            <a
-              href="Home.html#carousel_068e"
-              class="u-btn u-button-style u-hover-feature u-hover-palette-4-base u-none u-btn-6"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-direction=""
-              data-animation-delay="1000"
-              >#​フリーランサー</a
-            >
-            <a
-              href="Home.html#carousel_068e"
-              class="u-btn u-button-style u-hover-feature u-hover-palette-4-base u-none u-btn-7"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-direction=""
-              data-animation-delay="1000"
-              >#​​特技はアプリデザイン</a
-            >
-            <a
-              href="Home.html#carousel_068e"
-              class="u-btn u-button-style u-hover-feature u-hover-palette-4-base u-none u-btn-8"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-direction=""
-              data-animation-delay="1000"
-              >#​​趣味はウェブパブリッシング</a
-            >
-          </div>
-        </div>
-        <div
-          class="u-align-left u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-3"
-        >
-          <div class="u-container-layout u-container-layout-3">
-            <img
-              class="u-expanded-width-md u-expanded-width-xs u-image u-image-round u-radius-19 u-image-1"
-              data-image-width="1080"
-              data-image-height="1440"
-              src="images/KakaoTalk_Photo_2022-09-21-13-01-55.jpg"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-            />
-            <h6
-              class="u-align-center-xs u-custom-font u-font-montserrat u-text u-text-4"
-            >
-              Name/from
-            </h6>
-            <p class="u-align-center-xs u-text u-text-5">
-              Park Sang Hyeok / Korea
-            </p>
-            <h6
-              class="u-align-center-xs u-custom-font u-font-montserrat u-text u-text-default u-text-6"
-            >
-              Skill
-            </h6>
-            <p class="u-align-center-xs u-text u-text-7">
-              Ps,Ai,Ae,Pr,Xd,html,CSS
-            </p>
-            <h6
-              class="u-align-center-xs u-custom-font u-font-montserrat u-text u-text-default u-text-8"
-            >
-              Email
-            </h6>
-            <a
-              href="mailto:jkt9847@gmail.com?subject=%5BContact_homepage%5D%20%20%3C-%20Don't%20erase"
-              class="u-border-1 u-border-active-palette-4-dark-2 u-border-hover-palette-4-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-none u-text-active-palette-4-dark-2 u-text-grey-80 u-text-hover-palette-4-base u-btn-9"
-              >jkt9847@gmail.com</a
-            >
-            <h6
-              class="u-align-center-xs u-custom-font u-font-montserrat u-text u-text-9"
-            >
-              Phone
-            </h6>
-            <a
-              href="tel:070 1325 2069"
-              class="u-border-1 u-border-active-palette-4-dark-2 u-border-hover-palette-4-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-none u-text-active-palette-4-dark-2 u-text-grey-80 u-text-hover-palette-4-base u-btn-10"
-              >070 1325 2069</a
-            >
-            <h6
-              class="u-align-center-xs u-custom-font u-font-montserrat u-text u-text-default u-text-10"
-            >
-              Website
-            </h6>
-            <a
-              href="Home.html#carousel_c9ef"
-              class="u-border-1 u-border-active-palette-4-dark-2 u-border-hover-palette-4-base u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-button-style u-none u-radius-0 u-text-active-palette-4-dark-2 u-text-grey-80 u-text-hover-palette-4-base u-top-left-radius-0 u-top-right-radius-0 u-btn-11"
-              >My portfolio site</a
-            >
-            <h6
-              class="u-align-center-xs u-custom-font u-font-montserrat u-text u-text-11"
-            >
-              location
-            </h6>
-            <p class="u-align-center-xs u-text u-text-12">JAPAN Miyazaki</p>
-            <h6
-              class="u-align-center-xs u-custom-font u-font-montserrat u-text u-text-default u-text-13"
-            >
-              job
-            </h6>
-            <p class="u-align-center-xs u-text u-text-14">Freelancer</p>
-            <div
-              class="u-border-1 u-border-grey-dark-1 u-hidden-md u-hidden-sm u-hidden-xs u-line u-line-vertical u-opacity u-opacity-20 u-line-1"
-            ></div>
-          </div>
-        </div>
-        <div class="u-expanded-width-xs u-layout-grid u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div
-              class="u-align-center u-container-style u-list-item u-radius-10 u-repeater-item u-shape-round u-white u-list-item-1"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-direction="Right"
-              data-animation-delay="1000"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-4"
-              >
-                <p
-                  class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-1-dark-2 u-text-15"
-                >
-                  Stay
-                </p>
-                <h3
-                  class="u-custom-font u-font-montserrat u-text u-text-palette-4-base u-text-16"
-                  data-animation-name="counter"
-                  data-animation-event="scroll"
-                  data-animation-duration="3000"
-                >
-                  JP
-                </h3>
-              </div>
-            </div>
-            <div
-              class="u-align-center u-container-style u-list-item u-radius-10 u-repeater-item u-shape-round u-white u-list-item-2"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-direction="Right"
-              data-animation-delay="1000"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-5"
-              >
-                <p
-                  class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-1-dark-2 u-text-17"
-                >
-                  キャリア
-                </p>
-                <h3
-                  class="u-custom-font u-font-montserrat u-text u-text-palette-4-base u-text-18"
-                  data-animation-name="counter"
-                  data-animation-event="scroll"
-                  data-animation-duration="3000"
-                >
-                  +5
-                </h3>
-              </div>
-            </div>
-            <div
-              class="u-align-center u-container-style u-list-item u-radius-10 u-repeater-item u-shape-round u-white u-list-item-3"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-direction="Right"
-              data-animation-delay="1000"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-6"
-              >
-                <p
-                  class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-1-dark-2 u-text-19"
-                >
-                  Born
-                </p>
-                <h3
-                  class="u-custom-font u-font-montserrat u-text u-text-palette-4-base u-text-20"
-                  data-animation-name="counter"
-                  data-animation-event="scroll"
-                  data-animation-duration="3000"
-                >
-                  98
-                </h3>
-              </div>
-            </div>
-            <div
-              class="u-align-center u-container-style u-list-item u-radius-10 u-repeater-item u-shape-round u-white u-list-item-4"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-direction="Right"
-              data-animation-delay="1000"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-7"
-              >
-                <p
-                  class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-1-dark-2 u-text-21"
-                >
-                  projects
-                </p>
-                <h3
-                  class="u-custom-font u-font-montserrat u-text u-text-palette-4-base u-text-22"
-                  data-animation-name="counter"
-                  data-animation-event="scroll"
-                  data-animation-duration="3000"
-                >
-                  20
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-4"
-        >
-          <div class="u-container-layout u-container-layout-8">
-            <a
-              href="https://drive.google.com/file/d/1HVBzdhj8MSxvmk4Z6PVl5kX_RsV6xCyj/view?usp=share_link"
-              class="u-active-palette-5-dark-1 u-align-center u-border-none u-btn u-btn-round u-button-style u-hover-palette-5-base u-palette-4-base u-radius-10 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-12"
-              target="_blank"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-delay="2000"
-            >
-              ポートフォリオ&nbsp;&nbsp;<span class="u-icon u-text-white"
-                ><svg
-                  class="u-svg-content"
-                  viewBox="0 0 512 512"
-                  x="0px"
-                  y="0px"
-                  style="width: 1em; height: 1em"
-                >
-                  <g>
-                    <g>
-                      <path
-                        d="M382.56,233.376C379.968,227.648,374.272,224,368,224h-64V16c0-8.832-7.168-16-16-16h-64c-8.832,0-16,7.168-16,16v208h-64    c-6.272,0-11.968,3.68-14.56,9.376c-2.624,5.728-1.6,12.416,2.528,17.152l112,128c3.04,3.488,7.424,5.472,12.032,5.472    c4.608,0,8.992-2.016,12.032-5.472l112-128C384.192,245.824,385.152,239.104,382.56,233.376z"
-                      ></path>
-                    </g>
-                  </g>
-                  <g>
-                    <g>
-                      <path
-                        d="M432,352v96H80v-96H16v128c0,17.696,14.336,32,32,32h416c17.696,0,32-14.304,32-32V352H432z"
-                      ></path>
-                    </g>
-                  </g></svg
-                ><img
-              /></span>
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1M_r4iW_mlqJBX7HwEp_msZroZle9EHEE/view?usp=sharing"
-              class="u-active-palette-5-dark-1 u-border-none u-btn u-btn-round u-button-style u-hover-palette-5-base u-palette-4-base u-radius-10 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-13"
-              target="_blank"
-              data-animation-name="customAnimationIn"
-              data-animation-duration="1000"
-              data-animation-delay="2000"
-              >マイキャリア&nbsp;&nbsp;<span class="u-icon u-text-white"
-                ><svg
-                  class="u-svg-content"
-                  viewBox="0 0 512 512"
-                  x="0px"
-                  y="0px"
-                  style="width: 1em; height: 1em"
-                >
-                  <g>
-                    <g>
-                      <path
-                        d="M382.56,233.376C379.968,227.648,374.272,224,368,224h-64V16c0-8.832-7.168-16-16-16h-64c-8.832,0-16,7.168-16,16v208h-64    c-6.272,0-11.968,3.68-14.56,9.376c-2.624,5.728-1.6,12.416,2.528,17.152l112,128c3.04,3.488,7.424,5.472,12.032,5.472    c4.608,0,8.992-2.016,12.032-5.472l112-128C384.192,245.824,385.152,239.104,382.56,233.376z"
-                      ></path>
-                    </g>
-                  </g>
-                  <g>
-                    <g>
-                      <path
-                        d="M432,352v96H80v-96H16v128c0,17.696,14.336,32,32,32h416c17.696,0,32-14.304,32-32V352H432z"
-                      ></path>
-                    </g>
-                  </g></svg
-                ><img
-              /></span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section
-      class="skrollable u-align-center u-clearfix u-container-align-left-xs u-section-3"
-      id="carousel_9f1d"
-    >
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div
-          class="u-align-left u-container-style u-expanded-width-xs u-group u-group-1"
-          data-animation-out="1"
-        >
-          <div class="u-container-layout u-container-layout-1">
-            <h2 class="u-text u-text-default u-text-1">My Works</h2>
-            <p class="u-text u-text-2">
-              UIUX design,youtube, productionのデザイン<br />
-            </p>
-          </div>
-        </div>
-        <div class="u-expanded-width u-layout-grid u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div
-              class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-2"
-              >
-                <h4 class="u-text u-text-3">CarrotMask</h4>
-                <p class="u-text u-text-grey-60 u-text-4">App Design</p>
-                <a
-                  href="App-Web.html"
-                  class="u-border-1 u-border-grey-10 u-border-hover-palette-4-base u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-5-light-3 u-radius-7 u-text-hover-palette-5-light-3 u-text-palette-5-base u-btn-1"
-                  data-animation-name="customAnimationIn"
-                  data-animation-duration="1000"
-                  target="_blank"
-                  >More</a
-                >
-                <img
-                  class="u-expanded-width-sm u-expanded-width-xs u-image u-image-round u-radius-10 u-image-1"
-                  alt=""
-                  data-image-width="1270"
-                  data-image-height="837"
-                  src="images/slide_21.png"
-                />
-              </div>
-            </div>
-            <div
-              class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-3"
-              >
-                <h4 class="u-text u-text-5">Dr.forest</h4>
-                <p class="u-text u-text-grey-60 u-text-6">App Design</p>
-                <a
-                  href="App-Web.html"
-                  class="u-border-1 u-border-grey-10 u-border-hover-palette-4-base u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-5-light-3 u-radius-7 u-text-hover-palette-5-light-3 u-text-palette-5-base u-btn-2"
-                  data-animation-name="customAnimationIn"
-                  data-animation-duration="1000"
-                  target="_blank"
-                  >more</a
-                >
-                <img
-                  class="u-expanded-width-sm u-expanded-width-xs u-image u-image-round u-radius-10 u-image-2"
-                  alt=""
-                  data-image-width="1270"
-                  data-image-height="837"
-                  src="images/slide.png"
-                />
-              </div>
-            </div>
-            <div
-              class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-4"
-              >
-                <h4 class="u-text u-text-7">Dr.daddy</h4>
-                <p class="u-text u-text-grey-60 u-text-8">Youtube</p>
-                <a
-                  href="Youtube.html"
-                  class="u-border-1 u-border-grey-10 u-border-hover-palette-4-base u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-5-light-3 u-radius-7 u-text-hover-palette-5-light-3 u-text-palette-5-base u-btn-3"
-                  data-animation-name="customAnimationIn"
-                  data-animation-duration="1000"
-                  >more</a
-                >
-                <img
-                  class="u-expanded-width-sm u-expanded-width-xs u-image u-image-round u-radius-10 u-image-3"
-                  alt=""
-                  data-image-width="1270"
-                  data-image-height="837"
-                  src="images/slide_31.png"
-                />
-              </div>
-            </div>
-            <div
-              class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-5"
-              >
-                <h4 class="u-text u-text-9">NubeNubeTube</h4>
-                <p class="u-text u-text-grey-60 u-text-10">youtube<br /></p>
-                <a
-                  href="Youtube.html"
-                  class="u-border-1 u-border-grey-10 u-border-hover-palette-4-base u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-5-light-3 u-radius-7 u-text-hover-palette-5-light-3 u-text-palette-5-base u-btn-4"
-                  data-animation-name="customAnimationIn"
-                  data-animation-duration="1000"
-                  >more</a
-                >
-                <img
-                  class="u-expanded-width-sm u-expanded-width-xs u-image u-image-round u-radius-10 u-image-4"
-                  alt=""
-                  data-image-width="1270"
-                  data-image-height="837"
-                  src="images/slide_4.png"
-                />
-              </div>
-            </div>
-            <div
-              class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-6"
-              >
-                <h4 class="u-text u-text-11">Melting earth</h4>
-                <p class="u-text u-text-grey-60 u-text-12">Product</p>
-                <a
-                  href="Product.html"
-                  class="u-border-1 u-border-grey-10 u-border-hover-palette-4-base u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-5-light-3 u-radius-7 u-text-hover-palette-5-light-3 u-text-palette-5-base u-btn-5"
-                  data-animation-name="customAnimationIn"
-                  data-animation-duration="1000"
-                  target="_blank"
-                  >more</a
-                >
-                <img
-                  class="u-expanded-width-sm u-expanded-width-xs u-image u-image-round u-radius-10 u-image-5"
-                  alt=""
-                  data-image-width="1270"
-                  data-image-height="837"
-                  src="images/slide_1.png"
-                />
-              </div>
-            </div>
-            <div
-              class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-7"
-              >
-                <h4 class="u-text u-text-13">Busanbank</h4>
-                <p class="u-text u-text-grey-60 u-text-14">
-                  Mobile ​Business card
-                </p>
-                <a
-                  href="App-Web.html"
-                  class="u-border-1 u-border-grey-10 u-border-hover-palette-4-base u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-5-light-3 u-radius-7 u-text-hover-palette-5-light-3 u-text-palette-5-base u-btn-6"
-                  data-animation-name="customAnimationIn"
-                  data-animation-duration="1000"
-                  target="_blank"
-                  >more</a
-                >
-                <img
-                  class="u-expanded-width-sm u-expanded-width-xs u-image u-image-round u-radius-10 u-image-6"
-                  alt=""
-                  data-image-width="1270"
-                  data-image-height="837"
-                  src="images/slide_5png.png"
-                />
-              </div>
-            </div>
-            <div
-              class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle"
-            >
-              <div
-                class="u-container-layout u-similar-container u-container-layout-8"
-              >
-                <h4 class="u-text u-text-15">VITALJUICE</h4>
-                <p class="u-text u-text-grey-60 u-text-16">Product</p>
-                <a
-                  href="Product.html"
-                  class="u-border-1 u-border-grey-10 u-border-hover-palette-4-base u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-5-light-3 u-radius-7 u-text-hover-palette-5-light-3 u-text-palette-5-base u-btn-7"
-                  data-animation-name="customAnimationIn"
-                  data-animation-duration="1000"
-                  target="_blank"
-                  >more</a
-                >
-                <img
-                  class="u-expanded-width-sm u-expanded-width-xs u-image u-image-round u-radius-10 u-image-7"
-                  alt=""
-                  data-image-width="1270"
-                  data-image-height="837"
-                  src="images/slide_png.png"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section
-      class="u-clearfix u-container-align-center-sm u-container-align-center-xs u-palette-5-light-3 u-section-4"
-      id="carousel_64ad"
-    >
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-1">Contact Me</h2>
-        <div
-          class="u-clearfix u-expanded-width u-gutter-42 u-layout-wrap u-layout-wrap-1"
-        >
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div
-                class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-1"
-              >
-                <div
-                  class="u-container-layout u-valign-top-sm u-container-layout-1"
-                >
-                  <div class="u-expanded-width-xs u-form u-form-1">
-                    <form
-                      action="https://forms.nicepagesrv.com/v2/form/process"
-                      class="u-clearfix u-form-spacing-20 u-form-vertical u-inner-form"
-                      style="padding: 0px"
-                      source="email"
-                      name="mail_form"
-                    >
-                      <div class="u-form-group u-form-name u-label-top">
-                        <label for="name-3b9a" class="u-label">Name</label>
-                        <input
-                          type="text"
-                          placeholder="Eng Only"
-                          id="name-3b9a"
-                          name="name"
-                          class="u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-light-2 u-input u-input-rectangle u-radius-5 u-input-1"
-                          required=""
-                        />
-                      </div>
-                      <div class="u-form-email u-form-group u-label-top">
-                        <label for="email-3b9a" class="u-label">Email</label>
-                        <input
-                          type="email"
-                          placeholder="Enter your Email"
-                          id="email-3b9a"
-                          name="email"
-                          class="u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-light-2 u-input u-input-rectangle u-radius-5 u-input-2"
-                          required=""
-                        />
-                      </div>
-                      <div class="u-form-group u-form-message u-label-top">
-                        <label for="message-3b9a" class="u-label"
-                          >Message</label
-                        >
-                        <textarea
-                          placeholder="Enter your message"
-                          rows="4"
-                          cols="50"
-                          id="message-3b9a"
-                          name="message"
-                          class="u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-light-2 u-input u-input-rectangle u-radius-5 u-input-3"
-                          required=""
-                        ></textarea>
-                      </div>
-                      <div
-                        class="u-align-left u-form-group u-form-submit u-label-top"
-                      >
-                        <a
-                          href="#"
-                          class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-4-base u-palette-5-light-2 u-radius-7 u-btn-1"
-                          >Send</a
-                        >
-                        <input
-                          type="submit"
-                          value="submit"
-                          class="u-form-control-hidden"
-                        />
-                      </div>
-                      <div class="u-form-send-message u-form-send-success">
-                        Emailをおくりました。
-                      </div>
-                      <div class="u-form-send-error u-form-send-message">
-                        もし失敗し続けるならfooterのSNSでお連絡下さい。
-                      </div>
-                      <input type="hidden" value="" name="recaptchaResponse" />
-                      <input
-                        type="hidden"
-                        name="formServices"
-                        value="6310a6f2f10f964b9ad73e1c1b1b2ea3"
-                      />
-                    </form>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="u-container-style u-image u-image-round u-layout-cell u-radius-10 u-size-30 u-image-1"
-                data-image-width="1500"
-                data-image-height="1000"
-                data-animation-name="customAnimationIn"
-                data-animation-duration="1000"
-                data-animation-direction="Right"
-                data-animation-delay="0"
-              >
-                <div class="u-container-layout u-container-layout-2"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <style class="u-overlap-style">
-      .u-overlap:not(.u-sticky-scroll) .u-header {
-        background-color: #ffffff !important;
-      }
-    </style>
+            </nav>
+            <img class="menuBtn" src="img/nav_hamburger.svg" alt="">
+        </header>
+        <!-- nav_menu_end -->
+        <main>
+            <article class="article">
+                <!-- mainvisual -->
+                <header class="article__header">
+                    <div class="mainImg">
+                        <img class="mainImg__sp" src="img/mainvisual_mb.png" alt="朴相赫互いに光る">
+                        <img class="mainImg__pc" src="img/mainvisual_pc.png" alt="朴相赫互いに光る">
+                        <img class="mainImg__handSvg" src="img/hand.svg" alt="Hand illustration">
+                    </div>
+                </header>
+                <!-- mainvisual end -->
 
-    <footer
-      class="u-align-center u-clearfix u-footer u-grey-80 u-footer"
-      id="sec-db36"
-    >
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <p
-          class="u-align-left u-small-text u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-variant u-text-1"
-        >
-          このサイトはポートフォリオ用に作成されました。<br />© 2023 PARK,
-          SANG_HYEOK. All Rights Reserved.<br />
-        </p>
-        <span
-          class="u-file-icon u-icon u-icon-1"
-          data-href="https://line.me/ti/p/jyUyZV2_vJ"
-          data-target="_blank"
-          ><img src="images/3670089.png" alt="" /></span
-        ><span
-          class="u-file-icon u-icon u-icon-2"
-          data-href="http://qr.kakao.com/talk/FgLsGsvVEHoEtniqwivhMR_VVL0-"
-          data-target="_blank"
-          ><img src="images/3669973.png" alt="" /></span
-        ><span
-          class="u-file-icon u-icon u-icon-3"
-          data-href="https://www.instagram.com/poku_wang/"
-          data-target="_blank"
-          ><img src="images/4138124.png" alt=""
-        /></span>
-      </div>
-    </footer>
-    <span
-      style="
-        height: 38px;
-        width: 38px;
-        margin-left: 0px;
-        margin-right: auto;
-        margin-top: 0px;
-        right: 75px;
-        bottom: 85px;
-      "
-      class="u-back-to-top u-file-icon u-icon"
-      data-href="#"
-      ><img src="images/307481.png" alt=""
-    /></span>
-  </body>
+                <!-- web -->
+                <section id="web" class="section section--web">
+                    <h2 class="webTopic">My Projects</h2>
+                    <article class="webArticle">
+                        <div class="project">
+                            <figure class="project__img project__img--margin">
+                                <a href="port.html">
+                                    <img src="img/project_img1.png" alt="portfolioSite">
+                                </a>
+                            </figure>
+                            <div class="procjetctGroup">
+                                <div class="ProjectInfo">
+                                    <p class="ProjectTopic__txt">個人プロジェクト</p>
+                                    <span class="ProjectTopic__txt">2025</span>
+                                </div>
+                                <div class="ProjectTopic">
+                                    <h3 class="ProjectTopic__title">PORTFOLIO <br class="brSp">
+                                        SITE</h3>
+                                    <div class="procjectInfo">
+                                        <p class="procjectInfo__txt">はじめて自分でコーディングした<br class="br_sp">ポートフォリオサイトです。<br>
+                                            なるべくシンプルで見やすくなる<br class="brSp">ように頑張りました。<br>
+                                            ぜひ、私のデザインを見てみてく<br class="brSp">ださい！
+                                        </p>
+                                        <a href="port.html"><img src="img/more.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="projectHr">
+                        <div class="project procject--margin">
+                            <figure class="project__img">
+                                <a href="vaplit.html">
+                                    <img src="img/project_img2.png" alt="VAPELIT">
+                                </a>
+                            </figure>
+                            <div class="procjetctGroup">
+                                <div class="ProjectInfo">
+                                    <p class="ProjectTopic__txt">FREERANCE</p>
+                                    <span class="ProjectTopic__txt">2024</span>
+                                </div>
+                                <div class="ProjectTopic">
+                                    <h3 class="ProjectTopic__title">VAPELIT</h3>
+                                    <div class="procjectInfo">
+                                        <p class="procjectInfo__txt">小売・卸売のサイトです。<br class="brSp">
+                                            明るくてすずしいイメージ<br class="brSp">
+                                            がデ<br class="brPc">ザインのコンセプトです。<br class="brSp">
+                                            もともとはノーコードで作られ<br class="brPc">た<br class="brSp">サイトですが、コーディングを学<br
+                                                class="brSp">んだあと、リデザイン<br class="brPc">しました。
+                                        </p>
+                                        <a href="vaplit.html">
+                                            <div class="moreBtn">
+                                                <img src="img/more.svg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <!-- web end-->
+                <section class="section section--about">
+                    <!-- about -->
+                    <!-- <h2 class="mainTopics__title">挑戦を怖がらない<br>
+                        <span class="title">デザイナー<br class="brSp">
+                            パクです。</span>
+                    </h2> -->
+                    <div id="about" class="mainTopics">
+                        <article class="mainTopics__article">
+                            <figure class="mainTopicsVisual">
+                                <img class="visualSp" src="img/MainHeader_visual.png"
+                                    alt="挑戦を怖がらないデザイナーパクです。フリーランスとして活動を始め、主にデザインや企業向けの講義動画の編集を行ってきました。現在はコーディングにも興味を持ち、塾でHTML、CSS、JavaScriptを学んでいます。">
+                                <img class="visualPc" src="img/MainHeader_visualPC.png"
+                                    alt="挑戦を怖がらないデザイナーパクです。フリーランスとして活動を始め、主にデザインや企業向けの講義動画の編集を行ってきました。現在はコーディングにも興味を持ち、塾でHTML、CSS、JavaScriptを学んでいます。">
+                            </figure>
+                            <div class="mainTopics__topic">
+                                <p class="mainTopics__txt">
+                                    挑戦をおそれないデザイナーサンヒョクです。<br
+                                        class="brSp">一緒に輝けるような協力関係を大切にしています。<br>現在はHTML、CSS、JavaScriptを学びながら、<br
+                                        class="brSp">
+                                    表現の幅を広げています。
+                                </p>
+                            </div>
+                            <div class="about">
+                                <div class="about__header js-about-toggle">
+                                    <div class="about__text">
+                                        <h2 class="about__title">about me</h2>
+                                        <p class="about__subtitle">パクサンヒョクについて</p>
+                                    </div>
+                                    <img src="img/about_more.svg" alt="moreBtn" class="about__arrow" />
+                                </div>
+                                <div class="about__content">
+                                    <div class="about__inner">
+                                        韓国ソウル生まれ。デザイン専門学校を卒業後、 文具メーカーのデザイン部で約2年間、バナーやランディングページなどのグラフィックデザインを担当しました。
+                                        その後、SI企業に転職し、ノーコードツールを活用したアプリやWebデザイン、講義動画の編集など、幅広い業務に携わりました。
+                                        兵役を経て日本の方と結婚したことをきっかけに、日本でフリーランスとして活動を始め、現在は企業向けのデザインや講義動画の編集を中心に仕事をしています。
+                                        現在はコーディングにも興味を持ち、HTML CSS JavaScriptを学びながら表現の幅を広げています。
+                                    </div>
+                                </div>
+                                <hr class="aboutHr">
+                            </div>
+                            <div class="about">
+                                <div class="about__header js-about-toggle">
+                                    <div class="about__text">
+                                        <h2 class="about__title">My skill</h2>
+                                        <p class="about__subtitle">自分のパソコンスキル</p>
+                                    </div>
+                                    <img src="img/about_more.svg" alt="moreBtn" class="about__arrow" />
+                                </div>
+                                <div class="about__content">
+                                    <div class="about__inner2">
+                                        Photoshop, illustrator, premiere Pro, AffterEffects, VisualStudio, Html,
+                                        Css,
+                                        Js/Jq,
+                                        Figma, Slack
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <!-- about end -->
+
+                <!-- contact -->
+                <section id="contect" class="section section--contect">
+                    <article class="contect__article">
+                        <div class="contect__title">
+                            <h3 class="section__topic section__topic--contect">Contact me</h3>
+                        </div>
+
+                        <div class="contect__formWrap">
+                            <form target="_blank" action="https://formsubmit.co/jkt9847@gmail.com" method="POST">
+                                <div class="form-group">
+                                    <div class="form-row">
+                                        <div class="col col-first">
+                                            <h4 class="col__topic">お名前</h4>
+                                            <input type="text" name="name" class="form-control col__box"
+                                                placeholder="Full Name" required>
+                                        </div>
+                                        <div class="col">
+                                            <h4 class="col__topic">E-mail</h4>
+                                            <input type="email" name="email" class="form-control col__box"
+                                                placeholder="Email Address" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <h4 class="form-group__topic">message</h4>
+                                    <textarea placeholder="Your Message" class="form-control col__box" name="message"
+                                        rows="10" required></textarea>
+                                </div>
+
+                                <button type="submit" class="sendBtn btn btn-lg btn-dark btn-block">送る</button>
+                            </form>
+                        </div>
+                    </article>
+
+                </section>
+                <!-- contact end-->
+            </article>
+        </main>
+        <!-- footer -->
+        <footer id="footer" class="footer">
+            <article class="footer__article">
+                <div class="footer__group">
+                    <a href="#">
+                        <h2 class="footer__topic">PARKSANGHYEOK</h2>
+                    </a>
+                    <ul class="footerNav">
+                        <li class="footerNav__item"><a href="#about">ABOUT</a></li>
+                        <li class="footerNav__item"><a href="#web">WEB</a></li>
+                        <li class="footerNav__item"><a href="#other">OTHER</a></li>
+                    </ul>
+                </div>
+                <small class="copy">Copyright 2025 | All rights reserved</small>
+                <div id="topBtn" class="topBtn">
+                    <a href="#header"><img src="img/top.svg" alt=""></a>
+                </div>
+            </article>
+        </footer>
+        <!-- footer end-->
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
 </html>
